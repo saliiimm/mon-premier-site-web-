@@ -1,0 +1,21 @@
+@font-face {
+  font-family: tridion;
+  src: url(./assets/fonts/Triodion-Regular.ttf);
+}
+
+.parent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.enfant {
+  background-color: red;
+  padding: 30%;
+  border: 1px solid black;
+}
+
+.special {
+  background-color: green;
+  grid-area: 1 / 1 / 3 / 3;
+}

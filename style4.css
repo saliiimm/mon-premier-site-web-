@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: red;
+}
+
+div {
+  width: 700px;
+  height: 800px;
+  background-color: white;
+}
+
+p {
+  font-size: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+  div {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-color: yellow;
+  }
+  div {
+    width: 100%;
+  }
+  p {
+    font-size: 12px;
+  }
+}
